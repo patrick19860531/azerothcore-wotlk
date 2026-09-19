@@ -1,7 +1,7 @@
 #
 # AzerothCore
 #
-
+.workbuddy
 .cache
 /conf/*
 !/conf/dist
