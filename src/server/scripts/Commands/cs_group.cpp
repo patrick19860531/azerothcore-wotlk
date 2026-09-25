@@ -285,7 +285,7 @@ public:
             if (target)
             {
                 target->RemoveAurasDueToSpell(27827); // Spirit of Redemption
-                target->ResurrectPlayer(!AccountMgr::IsPlayerAccount(target->GetSession()->GetSecurity()) ? 1.0f : 0.5f);
+                target->ResurrectPlayer(1.0f);
                 target->SpawnCorpseBones();
                 target->SaveToDB(false, false);
             }
